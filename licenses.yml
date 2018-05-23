@@ -1,0 +1,58 @@
+Apache License:
+  meta:
+    name: Apache License
+    alias: apache
+    homepage: https://www.apache.org/licenses/
+    author: Apache Software Foundation
+    type: license
+
+  info:
+    desc: |
+      The Apache License is a permissive free software license written by the Apache Software Foundation (ASF).[5] The Apache License, Version 2.0 requires preservation of the copyright notice and disclaimer. Like other free software licenses, the license allows the user of the software the freedom to use the software for any purpose, to distribute it, to modify it, and to distribute modified versions of the software, under the terms of the license, without concern for royalties. This makes ALv2 a FRAND-RF license. The ASF and its projects release the software they produce under the Apache License and many non-ASF projects are also using the ALv2.
+
+  properties:
+    publication_date: 2004
+    linking: permissive
+    distribution: permissive
+    modification: permissive
+    patent_grant: yes
+    private_use: yes
+    sublicensing: permissive
+    tm_grant: no
+
+  download:
+    url: https://www.apache.org/licenses/LICENSE-{{ version }}
+
+  versions:
+  - 2.0
+  - 1.1
+  - 1.0
+GNU General Public License:
+  meta:
+    alias: gpl
+    name: GNU General Public License
+    homepage: https://www.apache.org/licenses/
+    author: Richard Stallman
+    type: license
+
+  info:
+    desc: |
+      The GNU General Public License (GNU GPL or GPL) is a widely used free software license, which guarantees end users the freedom to run, study, share and modify the software.[7] The license was originally written by Richard Stallman of the Free Software Foundation (FSF) for the GNU Project, and grants the recipients of a computer program the rights of the Free Software Definition.[8] The GPL is a copyleft license, which means that derivative work can only be distributed under the same license terms. This is in distinction to permissive free software licenses, of which the BSD licenses and the MIT License are widely used examples. GPL was the first copyleft license for general use.
+
+  properties:
+    publication_date: 2007
+    linking: GPLv3 compatible only
+    distribution: Copylefted
+    modification: Copylefted
+    patent_grant: Copylefted
+    private_use: yes
+    sublicensing: Copylefted
+    tm_grant: yes
+
+  download:
+    url: https://www.gnu.org/licenses/gpl-{{ version }}.txt
+
+  versions:
+  - 3.0
+  - 2.0
+  - 1.0
