@@ -1,0 +1,15 @@
+meta:
+  name: executables
+  homepage: https://github.com/lupkg/indexes
+  type: lupkg-index
+  language: yaml
+
+info:
+  slug: executables index for lupkg
+  tags:
+    - lupkg
+    - executables
+    - index
+
+download:
+  url: https://raw.githubusercontent.com/lupkg/indexes/master/executables.yml

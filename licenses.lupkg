@@ -1,0 +1,15 @@
+meta:
+  name: licenses
+  homepage: https://github.com/lupkg/indexes
+  type: lupkg-index
+  language: yaml
+
+info:
+  slug: license files index for lupkg
+  tags:
+    - lupkg
+    - license
+    - index
+
+download:
+  url: https://raw.githubusercontent.com/lupkg/indexes/master/licenses.yml
