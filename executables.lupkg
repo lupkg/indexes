@@ -12,4 +12,4 @@ info:
     - index
 
 download:
-  url: https://raw.githubusercontent.com/lupkg/indexes/master/executables.yml
+  url: https://raw.githubusercontent.com/lupkg/indexes/master/executables.index
