@@ -1,7 +1,7 @@
 executables.index:
   meta:
     name: executables.index
-    homepage: https://github.com/lupkg/indexes
+    homepage: https://github.com/lupkg/executables
     type: lupkg-index
     language: yaml
 
@@ -17,7 +17,7 @@ executables.index:
 licenses.index:
   meta:
     name: licenses.index
-    homepage: https://github.com/lupkg/indexes
+    homepage: https://github.com/lupkg/licenses
     type: lupkg-index
     language: yaml
 
