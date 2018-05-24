@@ -1,6 +1,6 @@
-executables:
+executables.index:
   meta:
-    name: executables
+    name: executables.index
     homepage: https://github.com/lupkg/indexes
     type: lupkg-index
     language: yaml
@@ -13,10 +13,10 @@ executables:
     - index
 
   download:
-    url: https://raw.githubusercontent.com/lupkg/indexes/master/executables.yml
-licenses:
+    url: https://raw.githubusercontent.com/lupkg/indexes/master/executables.index
+licenses.index:
   meta:
-    name: licenses
+    name: licenses.index
     homepage: https://github.com/lupkg/indexes
     type: lupkg-index
     language: yaml
@@ -29,4 +29,4 @@ licenses:
     - index
 
   download:
-    url: https://raw.githubusercontent.com/lupkg/indexes/master/licenses.yml
+    url: https://raw.githubusercontent.com/lupkg/indexes/master/licenses.index
