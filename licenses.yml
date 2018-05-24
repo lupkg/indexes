@@ -1,7 +1,7 @@
-Apache License:
+apache:
   meta:
-    name: Apache License
-    alias: apache
+    title: Apache License
+    name: apache
     homepage: https://www.apache.org/licenses/
     author: Apache Software Foundation
     type: license
@@ -27,10 +27,10 @@ Apache License:
   - 2.0
   - 1.1
   - 1.0
-GNU General Public License:
+gpl:
   meta:
-    alias: gpl
-    name: GNU General Public License
+    name: gpl
+    title: GNU General Public License
     homepage: https://www.apache.org/licenses/
     author: Richard Stallman
     type: license
