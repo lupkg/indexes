@@ -94,6 +94,60 @@ dust:
       - x86_64-apple-darwin
       - x86_64-unknown-linux-gnu
       - x86_64-unknown-linux-musl
+eclectica:
+  meta:
+    name: eclectica
+    homepage: https://github.com/markelog/eclectica
+    type: binary
+    language: go
+
+  info:
+    slug: Cool and eclectic version manager for any language
+    desc: |
+      Eclectica unifies management of any language under one cohesive and minimalistic interface.
+
+      Like pyenv for Python, rbenv for Ruby, nvm Node.js and etc. Managing multiple languages and doing it in a little more enjoyable fashion
+
+    tags:
+    - language install
+    - ruby
+    - go
+    - rust
+    - nodejs
+    - environment management
+
+    - system
+    - install
+    - languages
+  properties:
+    arch:
+    - darwin_amd64
+    - linux_amd64
+
+  download:
+    url:
+    - url: https://github.com/markelog/eclectica/releases/download/v{{ version }}/ec-proxy_{{
+        arch }}
+      file_name: ec-proxy
+      type: binary
+    - url: https://github.com/markelog/eclectica/releases/download/v{{ version }}/ec_{{
+        arch }}
+      file_name: ec
+      type: binary
+
+  versions:
+  - 0.3.3:
+      changelog: Improve output and handling of the rc files
+  - 0.3.2:
+      changelog: Small output improvement for non-darwin systems
+  - 0.3.1:
+      changelog: Small output correction
+  - 0.3.0:
+      changelog: Improve output, fix some bugs and refactoring
+  - 0.2.1
+  - 0.2.0
+  - 0.1.1
+  - 0.1.0
 frankentree:
   meta:
     name: frankentree
