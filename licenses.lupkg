@@ -1,6 +1,6 @@
 meta:
   name: licenses.index
-  homepage: https://github.com/lupkg/indexes
+  homepage: https://github.com/lupkg/licenses
   type: lupkg-index
   language: yaml
 

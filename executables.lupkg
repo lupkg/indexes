@@ -1,6 +1,6 @@
 meta:
   name: executables.index
-  homepage: https://github.com/lupkg/indexes
+  homepage: https://github.com/lupkg/executables
   type: lupkg-index
   language: yaml
 
