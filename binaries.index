@@ -1,0 +1,329 @@
+bat:
+  meta:
+    name: bat
+    license:
+    - Apache v2.0
+    - MIT
+    author:
+      github_user: sharkdp
+      name: David Peter
+      homepage: http://david-peter.de/
+    homepage: https://github.com/sharkdp/bat
+    language: rust
+    type: binary
+
+  info:
+    slug: a cat(1) clone with wings.
+    urls:
+      readme: https://github.com/sharkdp/bat/blob/master/README.md
+      customization: https://github.com/sharkdp/bat#customization
+    tags:
+    - cat
+    - github
+    - syntax highlighting
+
+    - terminal
+    - utils
+    - bat
+  properties:
+    arch:
+    - apple-darwin
+    - unknown-linux-gnu
+
+  download:
+    url: https://github.com/sharkdp/bat/releases/download/v{{ version }}/bat-v{{ version
+      }}-x86_64-{{ arch }}.tar.gz
+
+  versions:
+  - 0.2.0
+  - 0.1.0
+dust:
+  meta:
+    name: dust
+    license: Apache License 2.0
+    author:
+      github_user: bootandy
+      name: Andy Boot
+      homepage: http://www.nuclearcarrot.co.uk
+    homepage: https://github.com/bootandy/dust
+    language: rust
+    type: binary
+
+  info:
+    slug: like du but more intuitive
+    urls:
+      usage: https://github.com/bootandy/dust#usage
+      readme: https://github.com/bootandy/dust/blob/master/README.md
+    tags:
+    - du
+    - disk usage
+
+    - terminal
+    - system
+    - info
+  properties:
+    arch:
+    - apple-darwin
+    - unknown-linux-gnu
+
+  download:
+    url: https://github.com/bootandy/dust/releases/download/v{{ version }}/dust-v{{
+      version }}-x86_64-{{ arch }}.tar.gz
+
+  versions:
+  - 0.2.3:
+      changelog:
+      - Change package name to du-dust
+  - 0.2.2:
+      changelog:
+      - Update readme
+  - 0.2.1:
+      changelog:
+      - Just build mac and linux
+      - Remove appveyor file which was designed for windows
+  - 0.2.0:
+      changelog:
+      - First 'proper' release, several bug fixes applied from earlier version.
+      arch:
+      - aarch64-unknown-linux-gnu
+      - arm-unknown-linux-gnueabi
+      - armv7unknown-linux-gnueabihf
+      - i686-apple-darwin
+      - i686-unknown-linux-gnu
+      - i686-unknown-linux-musl
+      - x86_64-apple-darwin
+      - x86_64-unknown-linux-gnu
+      - x86_64-unknown-linux-musl
+eclectica:
+  meta:
+    name: eclectica
+    homepage: https://github.com/markelog/eclectica
+    type: binary
+    language: go
+
+  info:
+    slug: Cool and eclectic version manager for any language
+    desc: |
+      Eclectica unifies management of any language under one cohesive and minimalistic interface.
+
+      Like pyenv for Python, rbenv for Ruby, nvm Node.js and etc. Managing multiple languages and doing it in a little more enjoyable fashion
+
+    tags:
+    - language install
+    - ruby
+    - go
+    - rust
+    - nodejs
+    - environment management
+
+    - system
+    - install
+    - languages
+  properties:
+    arch:
+    - darwin_amd64
+    - linux_amd64
+
+  download:
+    url:
+    - url: https://github.com/markelog/eclectica/releases/download/v{{ version }}/ec-proxy_{{
+        arch }}
+      file_name: ec-proxy
+      type: binary
+    - url: https://github.com/markelog/eclectica/releases/download/v{{ version }}/ec_{{
+        arch }}
+      file_name: ec
+      type: binary
+
+  versions:
+  - 0.3.3:
+      changelog: Improve output and handling of the rc files
+  - 0.3.2:
+      changelog: Small output improvement for non-darwin systems
+  - 0.3.1:
+      changelog: Small output correction
+  - 0.3.0:
+      changelog: Improve output, fix some bugs and refactoring
+  - 0.2.1
+  - 0.2.0
+  - 0.1.1
+  - 0.1.0
+gotop:
+  meta:
+    name: gotop
+    homepage: https://github.com/cjbassi/gotop
+    author:
+      name: Caleb Bassi
+      github_user: cjbassi
+      email: calebjbassi@gmail.com
+    type: binary
+    language: go
+
+  info:
+    slug: A terminal based graphical activity monitor inspired by gtop and vtop
+    urls:
+      readme: https://github.com/cjbassi/gotop/blob/master/README.md
+      usage: https://github.com/cjbassi/gotop#usage
+    tags:
+    - top
+    - system monitor
+
+    - terminal
+    - system
+    - info
+  download:
+    url: https://github.com/cjbassi/gotop/releases/download/{{ version }}/gotop_{{
+      version }}_{{ arch }}.tgz
+    checksums: https://github.com/cjbassi/gotop/releases/download/{{ version }}/gotop_{{
+      version }}_checksums.txt
+
+  properties:
+    arch:
+    - linux_386
+    - linux_amd64
+    - linux_arm5
+    - linux_arm6
+    - linux_arm7
+    - linux_arm8
+    notes:
+    - earlier versions don't support all architectures that are currently supported
+
+  versions:
+  - 1.2.13
+  - 1.2.12
+  - 1.2.11
+  - 1.2.10
+  - 1.2.9
+  - 1.2.8
+  - 1.2.7
+  - 1.2.6
+  - 1.2.5
+  - 1.2.4
+  - 1.2.3
+  - 1.2.2
+  - 1.2.1
+  - 1.1.1
+  - 1.1.0
+  - 1.0.1
+  - 1.0.0
+hugo:
+  meta:
+    name: hugo
+    homepage: https://gohugo.io
+    requirements: []
+    type: binary
+    language: go
+
+  info:
+    slug: a static site generator
+    urls:
+    - https://gohugo.io/documentation/
+    community:
+    - https://discourse.gohugo.io/
+    tags:
+    - static-site-generator
+    - website
+    - blog
+    - web
+    - static-site-generators
+    - hugo
+    issues: https://github.com/gohugoio/hugo/issues
+
+  download:
+    url:
+    - url: https://github.com/gohugoio/hugo/releases/download/v{{ version }}/hugo_{{
+        version }}_{{ arch }}.tar.gz
+      file_name: hugo
+      type: binary
+      checksum: https://github.com/gohugoio/hugo/releases/download/v{{ version }}/hugo_{{
+        version }}_checksums.txt
+
+  properties:
+    arch:
+    - DragonFlyBSD-64bit
+    - FreeBSD-32bit
+    - FreeBSD-64bit
+    - FreeBSD-ARM
+    - Linux-32bit
+    - Linux-64bit
+    - Linux-ARM
+    - Linux-ARM64
+    - macOS-32bit
+    - macOS-64bit
+    - NetBSD-32bit
+    - NetBSD-64bit
+    - NetBSD-ARM
+    - OpenBSD-32bit
+    - OpenBSD-64bit
+
+  versions:
+  - 0.40.1
+  - 0.40
+  - 0.39
+  - 0.38.2
+  - 0.38.1
+tldr:
+  meta:
+    name: tldr
+    license: MIT
+    author:
+      github_user: mstruebing
+      name: Max Strübing
+      homepage: https://maex.me
+    homepage: https://github.com/mstruebing/tldr
+    language: go
+    type: binary
+
+  info:
+    slug: Golang command line client for tldr
+    urls:
+      readme: https://github.com/mstruebing/tldr/blob/master/README.md
+    tags:
+    - tldr
+    - man
+
+    - terminal
+    - utils
+  download:
+    url: https://github.com/mstruebing/tldr/releases/download/v{{ version }}/tldr-{{
+      arch }}.tar.gz
+
+  properties:
+    arch:
+    - darwin-386
+    - darwin-amd64
+    - dragonfly-amd64
+    - freebsd-386
+    - freebsd-amd64
+    - freebsd-arm
+    - linux-386
+    - linux-amd64
+    - linux-arm
+    - linux-arm64
+    - linux-mips
+    - linux-mips64
+    - linux-mips64le
+    - linux-mipsle
+    - linux-ppc64
+    - linux-ppc64le
+    - netbsd-386
+    - netbsd-amd64
+    - netbsd-arm
+    - openbsd-386
+    - openbsd-amd64
+    - openbsd-arm
+    - plan9-386
+    - plan9-amd64
+    - solaris-amd64
+    - windows-386
+    - windows-amd64
+
+  versions:
+  - 1.1.0
+  - 1.0.6
+  - 1.0.5
+  - 1.0.4
+  - 1.0.3
+  - 1.0.2
+  - 1.0.1
+  - 1.0.0

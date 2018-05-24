@@ -1,11 +1,11 @@
 meta:
   name: executables.index
-  homepage: https://github.com/lupkg/executables
+  homepage: https://github.com/lupkg/
   type: lupkg-index
   language: yaml
 
 info:
-  slug: executables index for lupkg
+  slug: executables index for lupkg, contains both scripts & binaries
   tags:
     - lupkg
     - executables

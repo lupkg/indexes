@@ -1,0 +1,16 @@
+meta:
+  name: binaries.index
+  homepage: https://github.com/lupkg/binaries
+  type: lupkg-index
+  language: yaml
+
+info:
+  slug: binaries index for lupkg
+  tags:
+    - lupkg
+    - executables
+    - binaries
+    - index
+
+download:
+  url: https://raw.githubusercontent.com/lupkg/indexes/master/binaries.index

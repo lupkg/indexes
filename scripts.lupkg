@@ -1,0 +1,16 @@
+meta:
+  name: scripts.index
+  homepage: https://github.com/lupkg/scripts
+  type: lupkg-index
+  language: yaml
+
+info:
+  slug: scripts index for lupkg
+  tags:
+    - lupkg
+    - executables
+    - scripts
+    - index
+
+download:
+  url: https://raw.githubusercontent.com/lupkg/indexes/master/scripts.index
